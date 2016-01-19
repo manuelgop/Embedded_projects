@@ -1,0 +1,20 @@
+xst -intstyle ise -ifn "D:/Embedded Projects/P02_Muxto1_4_bit/Mux4to1.xst" -ofn "D:/Embedded Projects/P02_Muxto1_4_bit/Mux4to1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 "Mux4to1.ngc" Mux4to1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Mux4to1_map.ncd Mux4to1.ngd Mux4to1.pcf 
+par -w -intstyle ise -ol high -mt off Mux4to1_map.ncd Mux4to1.ncd Mux4to1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Mux4to1.twx Mux4to1.ncd -o Mux4to1.twr Mux4to1.pcf 
+xst -intstyle ise -ifn "D:/Embedded Projects/P02_Muxto1_4_bit/Mux4to1.xst" -ofn "D:/Embedded Projects/P02_Muxto1_4_bit/Mux4to1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 "Mux4to1.ngc" Mux4to1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Mux4to1_map.ncd Mux4to1.ngd Mux4to1.pcf 
+par -w -intstyle ise -ol high -mt off Mux4to1_map.ncd Mux4to1.ncd Mux4to1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Mux4to1.twx Mux4to1.ncd -o Mux4to1.twr Mux4to1.pcf 
+xst -intstyle ise -ifn "D:/Embedded Projects/P02_Muxto1_4_bit/Mux4to1.xst" -ofn "D:/Embedded Projects/P02_Muxto1_4_bit/Mux4to1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 "Mux4to1.ngc" Mux4to1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Mux4to1_map.ncd Mux4to1.ngd Mux4to1.pcf 
+par -w -intstyle ise -ol high -mt off Mux4to1_map.ncd Mux4to1.ncd Mux4to1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Mux4to1.twx Mux4to1.ncd -o Mux4to1.twr Mux4to1.pcf 
+xst -intstyle ise -ifn "D:/Embedded Projects/P02_Muxto1_4_bit/Mux4to1.xst" -ofn "D:/Embedded Projects/P02_Muxto1_4_bit/Mux4to1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 "Mux4to1.ngc" Mux4to1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Mux4to1_map.ncd Mux4to1.ngd Mux4to1.pcf 
+par -w -intstyle ise -ol high -mt off Mux4to1_map.ncd Mux4to1.ncd Mux4to1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Mux4to1.twx Mux4to1.ncd -o Mux4to1.twr Mux4to1.pcf 
