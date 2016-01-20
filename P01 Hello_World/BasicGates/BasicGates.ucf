@@ -1,0 +1,8 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "A" LOC = T10;
+NET "B" LOC = T9;
+NET "Y" LOC = U16;
+
+# PlanAhead Generated IO constraints 

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\Embedded Projects\P01\BasicGates\BasicGates.ncd
+OUTFILE=D:\Embedded Projects\P01\BasicGates\BasicGates.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=D:\Embedded Projects\P01\BasicGates
+LICENSE=WebPack
+USER_INFO=211064057_0_0_251
