@@ -95,7 +95,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1453332237" xil_pn:in_ck="112375510219620403" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="-5448828996379172286" xil_pn:start_ts="1453332230">
+    <transform xil_pn:end_ts="1453333089" xil_pn:in_ck="112375510219620403" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="-5448828996379172286" xil_pn:start_ts="1453333083">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="FlipFlops.lso"/>

@@ -19,12 +19,12 @@
 // Additional Comments: 
 //
 //////////////////////////////////////////////////////////////////////////////////
-module FlipFlops(D, Clk, En, Clr, Q);
+module FlipFlops(D, Clk, En, Set, Q);
 	//Inputs
 	input D;
 	input Clk;
 	input En;
-	input Clr;
+	input Set;
 	//outpus
 	output Q;
 	//Register Q
@@ -104,9 +104,9 @@ module FlipFlops(D, Clk, En, Clr, Q);
 				Q = D;
 	end*/
 	
-			//G: D-Type FlipFlip, with rising edge
-		//	And Asynchronous Reset on logic 1
-		//With Clk enable
+/*			//H: D-Type FlipFlip, with rising edge
+		//	And Asynchronous Reset on logic 0
+		//With Clk enable with a neg
 		//IF something depends on the clock you dont have to put in the sensitivity list
 	always @(negedge Clk or negedge Clr)
 	begin
@@ -114,6 +114,20 @@ module FlipFlops(D, Clk, En, Clr, Q);
 			if(!Clr)
 				Q = 1'b0;
 			else if (!En)	
+				Q = D;
+	end
+*/
+
+			//H: D-Type FlipFlip, with rising edge
+		//	And Asynchronous Reset on logic 0
+		//With Clk enable with a neg
+		//IF something depends on the clock you dont have to put in the sensitivity list
+	always @(posedge Clk)
+	begin
+		//if(Clr == 1'b0)
+			if(Set)
+				Q = 1'b1;
+			else if (En)	
 				Q = D;
 	end
 

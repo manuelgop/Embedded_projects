@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.12 secs
+Total CPU time to Xst completion: 0.39 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.12 secs
+Total CPU time to Xst completion: 0.39 secs
  
 --> Reading design: FlipFlops.prj
 
@@ -188,10 +188,8 @@ Top Level Output File Name         : FlipFlops.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 2
-#      INV                         : 2
 # FlipFlops/Latches                : 1
-#      FDCE_1                      : 1
+#      FDSE                        : 1
 # Clock Buffers                    : 1
 #      BUFGP                       : 1
 # IO Buffers                       : 4
@@ -205,14 +203,12 @@ Selected Device : 6slx16csg324-3
 
 
 Slice Logic Utilization: 
- Number of Slice LUTs:                    2  out of   9112     0%  
-    Number used as Logic:                 2  out of   9112     0%  
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:      2
-   Number with an unused Flip Flop:       2  out of      2   100%  
-   Number with an unused LUT:             0  out of      2     0%  
-   Number of fully used LUT-FF pairs:     0  out of      2     0%  
+ Number of LUT Flip Flop pairs used:      0
+   Number with an unused Flip Flop:       0  out of      0         
+   Number with an unused LUT:             0  out of      0         
+   Number of fully used LUT-FF pairs:     0  out of      0         
    Number of unique control sets:         1
 
 IO Utilization: 
@@ -256,7 +252,7 @@ Timing Summary:
 Speed Grade: -3
 
    Minimum period: No path found
-   Minimum input arrival time before clock: 3.016ns
+   Minimum input arrival time before clock: 2.231ns
    Maximum output required time after clock: 3.597ns
    Maximum combinational path delay: No path found
 
@@ -268,21 +264,20 @@ All values displayed in nanoseconds (ns)
 Timing constraint: Default OFFSET IN BEFORE for Clock 'Clk'
   Total number of paths / destination ports: 3 / 3
 -------------------------------------------------------------------------
-Offset:              3.016ns (Levels of Logic = 2)
-  Source:            Clr (PAD)
+Offset:              2.231ns (Levels of Logic = 1)
+  Source:            Set (PAD)
   Destination:       Q (FF)
-  Destination Clock: Clk falling
+  Destination Clock: Clk rising
 
-  Data Path: Clr to Q
+  Data Path: Set to Q
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O             1   1.222   0.579  Clr_IBUF (Clr_IBUF)
-     INV:I->O              1   0.206   0.579  Clr_inv1_INV_0 (Clr_inv)
-     FDCE_1:CLR                0.430          Q
+     IBUF:I->O             1   1.222   0.579  Set_IBUF (Set_IBUF)
+     FDSE:S                    0.430          Q
     ----------------------------------------
-    Total                      3.016ns (1.858ns logic, 1.158ns route)
-                                       (61.6% logic, 38.4% route)
+    Total                      2.231ns (1.652ns logic, 0.579ns route)
+                                       (74.1% logic, 25.9% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'Clk'
@@ -291,13 +286,13 @@ Timing constraint: Default OFFSET OUT AFTER for Clock 'Clk'
 Offset:              3.597ns (Levels of Logic = 1)
   Source:            Q (FF)
   Destination:       Q (PAD)
-  Source Clock:      Clk falling
+  Source Clock:      Clk rising
 
   Data Path: Q to Q
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDCE_1:C->Q           1   0.447   0.579  Q (Q_OBUF)
+     FDSE:C->Q             1   0.447   0.579  Q (Q_OBUF)
      OBUF:I->O                 2.571          Q_OBUF (Q)
     ----------------------------------------
     Total                      3.597ns (3.018ns logic, 0.579ns route)
@@ -312,11 +307,11 @@ Cross Clock Domains Report:
 
 
 Total REAL time to Xst completion: 4.00 secs
-Total CPU time to Xst completion: 3.52 secs
+Total CPU time to Xst completion: 3.83 secs
  
 --> 
 
-Total memory usage is 240448 kilobytes
+Total memory usage is 239744 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)
