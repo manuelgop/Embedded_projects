@@ -1,0 +1,14 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Sat Jan 23 16:23:26 2016
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "Q<0>" LOCATE = SITE "M5" LEVEL 1;
+COMP "Q<1>" LOCATE = SITE "M11" LEVEL 1;
+COMP "Q<2>" LOCATE = SITE "P7" LEVEL 1;
+COMP "Q<3>" LOCATE = SITE "P6" LEVEL 1;
+COMP "Clk" LOCATE = SITE "B8" LEVEL 1;
+COMP "Clr" LOCATE = SITE "A7" LEVEL 1;
+NET "Clk_BUFGP/IBUFG" BEL "Clk_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

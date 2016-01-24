@@ -1,0 +1,36 @@
+# Basys2 on board 4-digit 7-segment display
+#
+#         A
+#       ---
+#   F / G / B
+#     ---
+# E /   / C
+#   ---  . DP
+#    D
+#
+# Bank = 1, Signal name = CA
+NET "Seg[0]" LOC = L14;
+# Bank = 1, Signal name = CB
+NET "Seg[1]" LOC = H12;
+# Bank = 1, Signal name = CC
+NET "Seg[2]" LOC = N14;
+# Bank = 2, Signal name = CD
+NET "Seg[3]" LOC = N11;
+# Bank = 2, Signal name = CE
+NET "Seg[4]" LOC = P12;
+# Bank = 1, Signal name = CF
+NET "Seg[5]" LOC = L13;
+# Bank = 1, Signal name = CG
+NET "Seg[6]" LOC = M12;
+
+NET "Clk" LOC = B8;
+NET "Clr" LOC = A7;
+
+# PlanAhead Generated physical constraints 
+
+NET "an[0]" LOC = F12;
+NET "an[1]" LOC = J12;
+NET "an[2]" LOC = M13;
+NET "an[3]" LOC = K14;
+
+

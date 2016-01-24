@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Sat Jan 23 19:14:10 2016
+# Process ID: 8408
+# Log file: C:/Embedded Projects/Seven_Seg_Counter/planAhead_run_3/planAhead.log
+# Journal file: C:/Embedded Projects/Seven_Seg_Counter/planAhead_run_3/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {C:/Embedded Projects/Seven_Seg_Counter/pa.fromNetlist.tcl}
+set_property package_pin "" [get_ports [list  {Seg[6]}]]
+set_property package_pin "" [get_ports [list  {Seg[6]}]]
+startgroup
+set_property package_pin L14 [get_ports {Seg[0]}]
+endgroup
+set_property package_pin "" [get_ports [list  {Seg[1]}]]
+startgroup
+set_property package_pin B8 [get_ports Clk]
+endgroup
+save_constraints

@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Fri Jan 22 12:44:10 2016
+# Process ID: 76
+# Log file: C:/Embedded Projects/P07_Counter_with_Frequency_Division/planAhead_run_1/planAhead.log
+# Journal file: C:/Embedded Projects/P07_Counter_with_Frequency_Division/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {C:/Embedded Projects/P07_Counter_with_Frequency_Division/pa.fromNetlist.tcl}
+set_property package_pin "" [get_ports [list  {Q[2]}]]
+startgroup
+set_property package_pin V15 [get_ports {Q[3]}]
+endgroup
+startgroup
+set_property package_pin U15 [get_ports {Q[2]}]
+endgroup
+startgroup
+set_property package_pin V16 [get_ports {Q[1]}]
+endgroup
+startgroup
+set_property package_pin U16 [get_ports {Q[0]}]
+endgroup
+startgroup
+set_property package_pin V10 [get_ports Clk]
+endgroup
+save_constraints
