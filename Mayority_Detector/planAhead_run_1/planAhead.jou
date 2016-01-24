@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Sun Jan 24 11:38:00 2016
+# Process ID: 88
+# Log file: C:/Projectos_VHDL/Mayority_Detector/planAhead_run_1/planAhead.log
+# Journal file: C:/Projectos_VHDL/Mayority_Detector/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Projectos_VHDL/Mayority_Detector/pa.fromNetlist.tcl
+startgroup
+set_property package_pin K3 [get_ports A]
+endgroup
+startgroup
+set_property package_pin L3 [get_ports B]
+endgroup
+startgroup
+set_property package_pin P11 [get_ports C]
+endgroup
+startgroup
+set_property package_pin M5 [get_ports Y]
+endgroup
+save_constraints
