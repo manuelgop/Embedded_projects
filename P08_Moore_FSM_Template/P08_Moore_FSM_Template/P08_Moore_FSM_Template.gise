@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="P08_Moore_FSM_Template.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="FSM_Moore_Template.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="FSM_Moore_Template.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="FSM_Moore_Template.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="FSM_Moore_Template.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="FSM_Moore_Template.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="FSM_Moore_Template.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="FSM_Moore_Template.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="FSM_Moore_Template.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="FSM_Moore_Template_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="FSM_Moore_Template_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="FSM_Moore_Template_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1453934499" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1453934499">
+      <status xil_pn:value="SuccessfullyRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1453934499" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="7791457973012473051" xil_pn:start_ts="1453934499">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1453934499" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="6479889222731692772" xil_pn:start_ts="1453934499">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1453934499" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1453934499">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1453934499" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="3454716202580103961" xil_pn:start_ts="1453934499">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1453934499" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="2988080280822507185" xil_pn:start_ts="1453934499">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1453934499" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="8680835994132900974" xil_pn:start_ts="1453934499">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1453937220" xil_pn:in_ck="1553476120956923686" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="5802776664055086923" xil_pn:start_ts="1453937214">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="FSM_Moore_Template.lso"/>
+      <outfile xil_pn:name="FSM_Moore_Template.ngc"/>
+      <outfile xil_pn:name="FSM_Moore_Template.ngr"/>
+      <outfile xil_pn:name="FSM_Moore_Template.prj"/>
+      <outfile xil_pn:name="FSM_Moore_Template.stx"/>
+      <outfile xil_pn:name="FSM_Moore_Template.syr"/>
+      <outfile xil_pn:name="FSM_Moore_Template.xst"/>
+      <outfile xil_pn:name="FSM_Moore_Template_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+  </transforms>
+
+</generated_project>
