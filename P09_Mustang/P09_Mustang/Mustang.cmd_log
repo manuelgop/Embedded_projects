@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Embedded Projects/P09_Mustang/P09_Mustang/Mustang.xst" -ofn "C:/Embedded Projects/P09_Mustang/P09_Mustang/Mustang.syr" 
