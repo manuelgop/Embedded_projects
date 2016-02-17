@@ -22,12 +22,18 @@
   <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Risc_CPU.xise"/>
 
   <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ALU.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="ALU.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="ALU.xst"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="FullAdder.prj"/>
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="FullAdder.stx"/>
     <file xil_pn:fileType="FILE_XST" xil_pn:name="FullAdder.xst"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Mem.prj"/>
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="Mem.stx"/>
     <file xil_pn:fileType="FILE_XST" xil_pn:name="Mem.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ProgCounter.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="ProgCounter.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="ProgCounter.xst"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="Risc_CPU.bld"/>
     <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="Risc_CPU.cmd_log"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="Risc_CPU.lso"/>

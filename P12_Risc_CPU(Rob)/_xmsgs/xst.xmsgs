@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="751" delta="old" >"C:\Users\oem\Desktop\Sistemas_Embebidos\P12_Risc_CPU\Reg8.v" Line 30: Redeclaration of ansi port <arg fmt="%s" index="1">OutD</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="old" >"C:\Users\oem\Desktop\Sistemas_Embebidos\P12_Risc_CPU\Refresh.v" Line 30: Redeclaration of ansi port <arg fmt="%s" index="1">An_msd</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="old" >"C:\Users\oem\Desktop\Sistemas_Embebidos\P12_Risc_CPU\Refresh.v" Line 31: Redeclaration of ansi port <arg fmt="%s" index="1">An_lsd</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="old" >"C:\Users\oem\Desktop\Sistemas_Embebidos\P12_Risc_CPU\Refresh.v" Line 32: Redeclaration of ansi port <arg fmt="%s" index="1">OutR</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="old" >"C:\Users\oem\Desktop\Sistemas_Embebidos\P12_Risc_CPU\ProgCounter.v" Line 29: Redeclaration of ansi port <arg fmt="%s" index="1">PCOut</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="old" >"C:\Users\oem\Desktop\Sistemas_Embebidos\P12_Risc_CPU\Mux4to1.v" Line 31: Redeclaration of ansi port <arg fmt="%s" index="1">M</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="old" >"C:\Users\oem\Desktop\Sistemas_Embebidos\P12_Risc_CPU\Increm.v" Line 28: Redeclaration of ansi port <arg fmt="%s" index="1">M</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="old" >"C:\Users\oem\Desktop\Sistemas_Embebidos\P12_Risc_CPU\CtrlUnit.v" Line 34: Redeclaration of ansi port <arg fmt="%s" index="1">RegSrc_Op</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="old" >"C:\Users\oem\Desktop\Sistemas_Embebidos\P12_Risc_CPU\CtrlUnit.v" Line 35: Redeclaration of ansi port <arg fmt="%s" index="1">ALUOp_Op</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="old" >"C:\Users\oem\Desktop\Sistemas_Embebidos\P12_Risc_CPU\CtrlUnit.v" Line 36: Redeclaration of ansi port <arg fmt="%s" index="1">RegWrite_Op</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="old" >"C:\Users\oem\Desktop\Sistemas_Embebidos\P12_Risc_CPU\CtrlUnit.v" Line 37: Redeclaration of ansi port <arg fmt="%s" index="1">Write7Seg_Op</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="old" >"C:\Users\oem\Desktop\Sistemas_Embebidos\P12_Risc_CPU\CtrlUnit.v" Line 38: Redeclaration of ansi port <arg fmt="%s" index="1">WriteLEDs_Op</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="old" >"C:\Users\oem\Desktop\Sistemas_Embebidos\P12_Risc_CPU\CtrlUnit.v" Line 39: Redeclaration of ansi port <arg fmt="%s" index="1">PCInc_Op</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="old" >"C:\Users\oem\Desktop\Sistemas_Embebidos\P12_Risc_CPU\CtrlUnit.v" Line 40: Redeclaration of ansi port <arg fmt="%s" index="1">Beq_Op</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="old" >"C:\Users\oem\Desktop\Sistemas_Embebidos\P12_Risc_CPU\CtrlUnit.v" Line 41: Redeclaration of ansi port <arg fmt="%s" index="1">JiJr_Op</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="old" >"C:\Users\oem\Desktop\Sistemas_Embebidos\P12_Risc_CPU\BrEq.v" Line 28: Redeclaration of ansi port <arg fmt="%s" index="1">M</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1499" delta="old" >"C:\Users\oem\Desktop\Sistemas_Embebidos\P12_Risc_CPU\Registers.v" Line 21: Empty module &lt;<arg fmt="%s" index="1">Registers</arg>&gt; remains a black box.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">ALUOp_Op&lt;1&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">ALUOp_Op&lt;0&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">ALUOp_Op&lt;2&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="info" file="Xst" num="1767" delta="old" >HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_Beq_Op</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="new" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram__n0034</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">C03/ALUOp_Op_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">RISC_CPU</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;C03/ALUOp_Op_2&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">C12/OutD_7</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">RISC_CPU</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">C12/OutD_6</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">RISC_CPU</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">C12/OutD_5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">RISC_CPU</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">C12/OutD_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">RISC_CPU</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">C12/OutD_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">RISC_CPU</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">C12/OutD_2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">RISC_CPU</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">C12/OutD_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">RISC_CPU</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">C12/OutD_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">RISC_CPU</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="new" >Latch &lt;<arg fmt="%s" index="1">C03/ALUOp_Op_0</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">RISC_CPU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="new" >Latch &lt;<arg fmt="%s" index="1">C03/ALUOp_Op_1</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">RISC_CPU</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">C15/count_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">RISC_CPU</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;C16/count_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">C15/count_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">RISC_CPU</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;C16/count_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">C15/count_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">RISC_CPU</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;C16/count_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">C15/count_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">RISC_CPU</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;C16/count_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">C15/count_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">RISC_CPU</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;C16/count_4&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="3203" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">C13/An_lsd</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">RISC_CPU</arg>&gt; is the opposite to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;C13/An_msd&gt; </arg>
+</msg>
+
+</messages>
+

@@ -1,0 +1,433 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Reading design: Risc_CPU.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Risc_CPU.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Risc_CPU"
+Output Format                      : NGC
+Target Device                      : xc6slx16-3-csg324
+
+---- Source Options
+Top Module Name                    : Risc_CPU
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:\Embedded Projects\P12_Risc_CPU\Risc_CPU\Registers.v" into library work
+Parsing module <Registers>.
+Analyzing Verilog file "C:\Embedded Projects\P12_Risc_CPU\Risc_CPU\Reg8.v" into library work
+Parsing module <Reg8>.
+Analyzing Verilog file "C:\Embedded Projects\P12_Risc_CPU\Risc_CPU\Refresh.v" into library work
+Parsing module <Refresh>.
+Analyzing Verilog file "C:\Embedded Projects\P12_Risc_CPU\Risc_CPU\ProgCounter.v" into library work
+Parsing module <ProgCounter>.
+Analyzing Verilog file "C:\Embedded Projects\P12_Risc_CPU\Risc_CPU\Mux4to1.v" into library work
+Parsing module <Mux4to1>.
+Analyzing Verilog file "C:\Embedded Projects\P12_Risc_CPU\Risc_CPU\Mem.v" into library work
+Parsing module <Mem>.
+Analyzing Verilog file "C:\Embedded Projects\P12_Risc_CPU\Risc_CPU\Increm.v" into library work
+Parsing module <Increm>.
+Analyzing Verilog file "C:\Embedded Projects\P12_Risc_CPU\Risc_CPU\FullAdder.v" into library work
+Parsing module <FullAdder>.
+WARNING:HDLCompiler:751 - "C:\Embedded Projects\P12_Risc_CPU\Risc_CPU\FullAdder.v" Line 27: Redeclaration of ansi port S is not allowed
+Analyzing Verilog file "C:\Embedded Projects\P12_Risc_CPU\Risc_CPU\DispOff.v" into library work
+Parsing module <DispOff>.
+Analyzing Verilog file "C:\Embedded Projects\P12_Risc_CPU\Risc_CPU\Dec7Seg.v" into library work
+Parsing module <Dec7Seg>.
+Analyzing Verilog file "C:\Embedded Projects\P12_Risc_CPU\Risc_CPU\CtrlUnit.v" into library work
+Parsing module <CtrlUnit>.
+Analyzing Verilog file "C:\Embedded Projects\P12_Risc_CPU\Risc_CPU\ClkDiv.v" into library work
+Parsing module <ClkDiv>.
+Analyzing Verilog file "C:\Embedded Projects\P12_Risc_CPU\Risc_CPU\BrEq.v" into library work
+Parsing module <BrEq>.
+Analyzing Verilog file "C:\Embedded Projects\P12_Risc_CPU\Risc_CPU\ALU.v" into library work
+Parsing module <ALU>.
+Analyzing Verilog file "C:\Embedded Projects\P12_Risc_CPU\Risc_CPU\Risc_CPU.v" into library work
+Parsing module <Risc_CPU>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <Risc_CPU>.
+
+Elaborating module <ProgCounter>.
+WARNING:HDLCompiler:1499 - "C:\Embedded Projects\P12_Risc_CPU\Risc_CPU\ProgCounter.v" Line 21: Empty module <ProgCounter> remains a black box.
+WARNING:HDLCompiler:189 - "C:\Embedded Projects\P12_Risc_CPU\Risc_CPU\Risc_CPU.v" Line 70: Size mismatch in connection of port <PCIn>. Formal port size is 1-bit while actual signal size is 8-bit.
+
+Elaborating module <Mem>.
+WARNING:HDLCompiler:189 - "C:\Embedded Projects\P12_Risc_CPU\Risc_CPU\Risc_CPU.v" Line 82: Size mismatch in connection of port <Datars>. Formal port size is 3-bit while actual signal size is 4-bit.
+WARNING:HDLCompiler:189 - "C:\Embedded Projects\P12_Risc_CPU\Risc_CPU\Risc_CPU.v" Line 83: Size mismatch in connection of port <Datart>. Formal port size is 3-bit while actual signal size is 4-bit.
+WARNING:HDLCompiler:189 - "C:\Embedded Projects\P12_Risc_CPU\Risc_CPU\Risc_CPU.v" Line 84: Size mismatch in connection of port <Datard>. Formal port size is 3-bit while actual signal size is 4-bit.
+
+Elaborating module <CtrlUnit>.
+WARNING:HDLCompiler:1499 - "C:\Embedded Projects\P12_Risc_CPU\Risc_CPU\CtrlUnit.v" Line 21: Empty module <CtrlUnit> remains a black box.
+WARNING:HDLCompiler:189 - "C:\Embedded Projects\P12_Risc_CPU\Risc_CPU\Risc_CPU.v" Line 92: Size mismatch in connection of port <ALUOp_Op>. Formal port size is 3-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "C:\Embedded Projects\P12_Risc_CPU\Risc_CPU\Risc_CPU.v" Line 98: Size mismatch in connection of port <JiJr_Op>. Formal port size is 2-bit while actual signal size is 1-bit.
+
+Elaborating module <Registers>.
+WARNING:HDLCompiler:1499 - "C:\Embedded Projects\P12_Risc_CPU\Risc_CPU\Registers.v" Line 21: Empty module <Registers> remains a black box.
+WARNING:HDLCompiler:189 - "C:\Embedded Projects\P12_Risc_CPU\Risc_CPU\Risc_CPU.v" Line 103: Size mismatch in connection of port <SelA>. Formal port size is 3-bit while actual signal size is 4-bit.
+WARNING:HDLCompiler:189 - "C:\Embedded Projects\P12_Risc_CPU\Risc_CPU\Risc_CPU.v" Line 104: Size mismatch in connection of port <SelB>. Formal port size is 3-bit while actual signal size is 4-bit.
+WARNING:HDLCompiler:189 - "C:\Embedded Projects\P12_Risc_CPU\Risc_CPU\Risc_CPU.v" Line 105: Size mismatch in connection of port <SelWR>. Formal port size is 3-bit while actual signal size is 4-bit.
+
+Elaborating module <ALU>.
+WARNING:HDLCompiler:1499 - "C:\Embedded Projects\P12_Risc_CPU\Risc_CPU\ALU.v" Line 21: Empty module <ALU> remains a black box.
+WARNING:HDLCompiler:189 - "C:\Embedded Projects\P12_Risc_CPU\Risc_CPU\Risc_CPU.v" Line 118: Size mismatch in connection of port <Sel>. Formal port size is 3-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "C:\Embedded Projects\P12_Risc_CPU\Risc_CPU\Risc_CPU.v" Line 120: Size mismatch in connection of port <Oper>. Formal port size is 9-bit while actual signal size is 8-bit.
+
+Elaborating module <FullAdder>.
+
+Elaborating module <Increm>.
+WARNING:HDLCompiler:1499 - "C:\Embedded Projects\P12_Risc_CPU\Risc_CPU\Increm.v" Line 21: Empty module <Increm> remains a black box.
+
+Elaborating module <BrEq>.
+WARNING:HDLCompiler:1499 - "C:\Embedded Projects\P12_Risc_CPU\Risc_CPU\BrEq.v" Line 21: Empty module <BrEq> remains a black box.
+
+Elaborating module <Mux4to1>.
+WARNING:HDLCompiler:1499 - "C:\Embedded Projects\P12_Risc_CPU\Risc_CPU\Mux4to1.v" Line 21: Empty module <Mux4to1> remains a black box.
+WARNING:HDLCompiler:189 - "C:\Embedded Projects\P12_Risc_CPU\Risc_CPU\Risc_CPU.v" Line 161: Size mismatch in connection of port <Sel>. Formal port size is 2-bit while actual signal size is 1-bit.
+
+Elaborating module <Reg8>.
+WARNING:HDLCompiler:1499 - "C:\Embedded Projects\P12_Risc_CPU\Risc_CPU\Reg8.v" Line 21: Empty module <Reg8> remains a black box.
+
+Elaborating module <Refresh>.
+WARNING:HDLCompiler:1499 - "C:\Embedded Projects\P12_Risc_CPU\Risc_CPU\Refresh.v" Line 21: Empty module <Refresh> remains a black box.
+
+Elaborating module <Dec7Seg>.
+WARNING:HDLCompiler:1499 - "C:\Embedded Projects\P12_Risc_CPU\Risc_CPU\Dec7Seg.v" Line 21: Empty module <Dec7Seg> remains a black box.
+
+Elaborating module <ClkDiv(DesireFreq=10)>.
+WARNING:HDLCompiler:1499 - "C:\Embedded Projects\P12_Risc_CPU\Risc_CPU\ClkDiv.v" Line 21: Empty module <ClkDiv(DesireFreq=10)> remains a black box.
+
+Elaborating module <ClkDiv(DesireFreq=200)>.
+WARNING:HDLCompiler:1499 - "C:\Embedded Projects\P12_Risc_CPU\Risc_CPU\ClkDiv.v" Line 21: Empty module <ClkDiv(DesireFreq=200)> remains a black box.
+
+Elaborating module <DispOff>.
+WARNING:HDLCompiler:1499 - "C:\Embedded Projects\P12_Risc_CPU\Risc_CPU\DispOff.v" Line 21: Empty module <DispOff> remains a black box.
+WARNING:HDLCompiler:189 - "C:\Embedded Projects\P12_Risc_CPU\Risc_CPU\Risc_CPU.v" Line 211: Size mismatch in connection of port <TurnOff>. Formal port size is 2-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:1127 - "C:\Embedded Projects\P12_Risc_CPU\Risc_CPU\Risc_CPU.v" Line 211: Assignment to TurnOff ignored, since the identifier is never used
+WARNING:HDLCompiler:634 - "C:\Embedded Projects\P12_Risc_CPU\Risc_CPU\Risc_CPU.v" Line 71: Net <Clk100Mhz> does not have a driver.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <Risc_CPU>.
+    Related source file is "C:\Embedded Projects\P12_Risc_CPU\Risc_CPU\Risc_CPU.v".
+WARNING:Xst:647 - Input <Clk100_Mhz> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+INFO:Xst:3210 - "C:\Embedded Projects\P12_Risc_CPU\Risc_CPU\Risc_CPU.v" line 210: Output port <TurnOff> of the instance <C17> is unconnected or connected to loadless signal.
+WARNING:Xst:653 - Signal <Clk100Mhz> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+    Summary:
+	no macro.
+Unit <Risc_CPU> synthesized.
+
+Synthesizing Unit <Mem>.
+    Related source file is "C:\Embedded Projects\P12_Risc_CPU\Risc_CPU\Mem.v".
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <Mem> synthesized.
+
+Synthesizing Unit <FullAdder>.
+    Related source file is "C:\Embedded Projects\P12_Risc_CPU\Risc_CPU\FullAdder.v".
+    Found 8-bit adder for signal <S> created at line 31.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+Unit <FullAdder> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 8-bit adder                                           : 1
+# Multiplexers                                         : 1
+ 21-bit 2-to-1 multiplexer                             : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 8-bit adder                                           : 1
+# Multiplexers                                         : 1
+ 21-bit 2-to-1 multiplexer                             : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <Risc_CPU> ...
+
+Mapping all equations...
+WARNING:Xst:2036 - Inserting OBUF on port <Seg<7>> driven by black box <Dec7Seg>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <Seg<6>> driven by black box <Dec7Seg>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <Seg<5>> driven by black box <Dec7Seg>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <Seg<4>> driven by black box <Dec7Seg>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <Seg<3>> driven by black box <Dec7Seg>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <Seg<2>> driven by black box <Dec7Seg>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <Seg<1>> driven by black box <Dec7Seg>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <Seg<0>> driven by black box <Dec7Seg>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <LEDs<7>> driven by black box <Reg8>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <LEDs<6>> driven by black box <Reg8>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <LEDs<5>> driven by black box <Reg8>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <LEDs<4>> driven by black box <Reg8>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <LEDs<3>> driven by black box <Reg8>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <LEDs<2>> driven by black box <Reg8>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <LEDs<1>> driven by black box <Reg8>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <LEDs<0>> driven by black box <Reg8>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <Anodo_msd> driven by black box <Refresh>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <Anodo_lsd> driven by black box <Refresh>. Possible simulation mismatch.
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Risc_CPU, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : Risc_CPU.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 32
+#      GND                         : 1
+#      LUT2                        : 8
+#      LUT3                        : 5
+#      LUT6                        : 2
+#      MUXCY                       : 7
+#      VCC                         : 1
+#      XORCY                       : 8
+# IO Buffers                       : 27
+#      IBUF                        : 9
+#      OBUF                        : 18
+# Others                           : 15
+#      ALU                         : 1
+#      BrEq                        : 1
+#      ClkDiv                      : 2
+#      CtrlUnit                    : 1
+#      Dec7Seg                     : 1
+#      DispOff                     : 1
+#      Increm                      : 1
+#      Mux4to1                     : 2
+#      ProgCounter                 : 1
+#      Refresh                     : 1
+#      Reg8                        : 2
+#      Registers                   : 1
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx16csg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice LUTs:                   15  out of   9112     0%  
+    Number used as Logic:                15  out of   9112     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     15
+   Number with an unused Flip Flop:      15  out of     15   100%  
+   Number with an unused LUT:             0  out of     15     0%  
+   Number of fully used LUT-FF pairs:     0  out of     15     0%  
+   Number of unique control sets:         0
+
+IO Utilization: 
+ Number of IOs:                          30
+ Number of bonded IOBs:                  27  out of    232    11%  
+
+Specific Feature Utilization:
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 3.150ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 295 / 142
+-------------------------------------------------------------------------
+Delay:               3.150ns (Levels of Logic = 1)
+  Source:            C14:Seg<7> (PAD)
+  Destination:       Seg<7> (PAD)
+
+  Data Path: C14:Seg<7> to Seg<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+    Dec7Seg:Seg<7>         1   0.000   0.579  C14 (Seg_7_OBUF)
+     OBUF:I->O                 2.571          Seg_7_OBUF (Seg<7>)
+    ----------------------------------------
+    Total                      3.150ns (2.571ns logic, 0.579ns route)
+                                       (81.6% logic, 18.4% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 6.29 secs
+ 
+--> 
+
+Total memory usage is 296180 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   49 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

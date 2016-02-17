@@ -5,7 +5,10 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="HDLCompiler" num="751" delta="new" >"C:\Embedded Projects\P12_Risc_CPU\Risc_CPU\FullAdder.v" Line 27: Redeclaration of ansi port <arg fmt="%s" index="1">S</arg> is not allowed
+<msg type="warning" file="HDLCompiler" num="751" delta="old" >"C:\Embedded Projects\P12_Risc_CPU\Risc_CPU\ALU.v" Line 29: Redeclaration of ansi port <arg fmt="%s" index="1">Oper</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="old" >"C:\Embedded Projects\P12_Risc_CPU\Risc_CPU\ALU.v" Line 30: Redeclaration of ansi port <arg fmt="%s" index="1">Zero</arg> is not allowed
 </msg>
 
 </messages>
