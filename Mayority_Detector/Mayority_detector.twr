@@ -2,13 +2,13 @@
 Release 14.7 Trace  (nt)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s 4 -n
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s 3 -n
 3 -fastpaths -xml Mayority_detector.twx Mayority_detector.ncd -o
 Mayority_detector.twr Mayority_detector.pcf -ucf Mayority_detector.ucf
 
 Design file:              Mayority_detector.ncd
 Physical constraint file: Mayority_detector.pcf
-Device,package,speed:     xc3s100e,cp132,-4 (PRODUCTION 1.27 2013-10-13)
+Device,package,speed:     xc6slx16,csg324,C,-3 (PRODUCTION 1.23 2013-10-13)
 Report level:             verbose report
 
 Environment Variable      Effect 
@@ -25,14 +25,6 @@ INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on
    a 50 Ohm transmission line loading model.  For the details of this model, 
    and for more information on accounting for different loading conditions, 
    please see the device datasheet.
-INFO:Timing:3390 - This architecture does not support a default System Jitter 
-   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
-   Uncertainty calculation.
-INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
-   'Phase Error' calculations, these terms will be zero in the Clock 
-   Uncertainty calculation.  Please make appropriate modification to 
-   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
-   Error.
 
 
 
@@ -44,20 +36,20 @@ Pad to Pad
 ---------------+---------------+---------+
 Source Pad     |Destination Pad|  Delay  |
 ---------------+---------------+---------+
-A              |Y              |    7.091|
-B              |Y              |    6.980|
-C              |Y              |    7.541|
+A              |Y              |    7.148|
+B              |Y              |    7.388|
+C              |Y              |    7.318|
 ---------------+---------------+---------+
 
 
-Analysis completed Sun Jan 24 11:47:27 2016 
+Analysis completed Wed Feb 17 11:12:00 2016 
 --------------------------------------------------------------------------------
 
 Trace Settings:
 -------------------------
 Trace Settings 
 
-Peak Memory Usage: 129 MB
+Peak Memory Usage: 171 MB
 
 
 

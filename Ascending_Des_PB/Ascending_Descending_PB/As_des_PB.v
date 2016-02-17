@@ -75,15 +75,20 @@ module Seven_segment(Clr, Clk, SW, Seg, an);
 		if(Clr)
 			Qtemp = 4'b0000;
 		else if (En1Hz)
-				if( Qtemp == 4'b1001)
-					Qtemp = 4'b0000;
-				else
-					Qtemp = Qtemp + 1'b1;
-				if( SW == 1'b1 && En1Hz==1)
-					Qtemp = Qtemp-1;
+					if(SW)
+						if( Qtemp == 4'b1001)
+							Qtemp = 4'b0000;
+						else
+							Qtemp = Qtemp + 1'b1;
+					else
+						if (Qtemp == 4'b0000)
+							Qtemp = 4'b1001;
+						else
+							Qtemp = Qtemp - 1'b1;
 					
 	end
-		assign an = 4'b1011;
+	
+		assign an = 4'b0011;
 		//assign Q = Qtemp;
 		
 	///7 segment display
@@ -124,9 +129,5 @@ module Seven_segment(Clr, Clk, SW, Seg, an);
                end
    endcase
 	
-		
-
-	
-
 
 endmodule

@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/Embedded Projects/Grey_Counter/Grey_Counter/gray_count.xst" -ofn "C:/Embedded Projects/Grey_Counter/Grey_Counter/gray_count.syr" 
+xst -intstyle ise -ifn "C:/Embedded Projects/Grey_Counter/Grey_Counter/gray_count.xst" -ofn "C:/Embedded Projects/Grey_Counter/Grey_Counter/gray_count.syr" 

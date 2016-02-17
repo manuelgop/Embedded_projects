@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Embedded Projects/Stop_Lights/Stop_Lights/FSM_Stoplight.xst" -ofn "C:/Embedded Projects/Stop_Lights/Stop_Lights/FSM_Stoplight.syr" 

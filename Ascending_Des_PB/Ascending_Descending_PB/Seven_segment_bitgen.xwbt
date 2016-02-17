@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Embedded Projects\Ascending_Des_PB\Ascending_Descending_PB\Seven_segment.ncd
+OUTFILE=C:\Embedded Projects\Ascending_Des_PB\Ascending_Descending_PB\Seven_segment.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=C:\Embedded Projects\Ascending_Des_PB\Ascending_Descending_PB
+LICENSE=WebPack
+USER_INFO=200310400_0_0_857

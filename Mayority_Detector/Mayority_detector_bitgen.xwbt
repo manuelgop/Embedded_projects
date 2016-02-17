@@ -1,8 +1,8 @@
 INTSTYLE=ise
 INFILE=C:\Embedded Projects\Mayority_Detector\Mayority_detector.ncd
 OUTFILE=C:\Embedded Projects\Mayority_Detector\Mayority_detector.bit
-FAMILY=Spartan3E
-PART=xc3s100e-4cp132
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
 WORKINGDIR=C:\Embedded Projects\Mayority_Detector
 LICENSE=WebPack
 USER_INFO=200310400_0_0_857

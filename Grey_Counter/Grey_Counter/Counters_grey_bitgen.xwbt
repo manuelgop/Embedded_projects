@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Embedded Projects\Grey_Counter\Grey_Counter\Counters_grey.ncd
+OUTFILE=C:\Embedded Projects\Grey_Counter\Grey_Counter\Counters_grey.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=C:\Embedded Projects\Grey_Counter\Grey_Counter
+LICENSE=WebPack
+USER_INFO=200310400_0_0_857

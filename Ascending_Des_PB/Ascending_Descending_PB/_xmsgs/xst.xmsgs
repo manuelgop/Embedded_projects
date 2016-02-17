@@ -5,16 +5,10 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="HDLCompiler" num="462" delta="old" >"C:\Embedded Projects\Ascending_Des_PB\Ascending_Descending_PB\As_des_PB.v" Line 82: if-condition does not match any sensitivity list edge
+<msg type="info" file="Xst" num="1767" delta="old" >HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Embedded Projects\Ascending_Des_PB\Ascending_Descending_PB\As_des_PB.v" Line 83: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
-</msg>
-
-<msg type="error" file="HDLCompiler" num="1128" delta="old" >"C:\Embedded Projects\Ascending_Des_PB\Ascending_Descending_PB\As_des_PB.v" Line 82: Assignment under multiple single edges is not supported for synthesis
-</msg>
-
-<msg type="warning" file="HDLCompiler" num="1499" delta="old" >"C:\Embedded Projects\Ascending_Des_PB\Ascending_Descending_PB\As_des_PB.v" Line 21: Empty module &lt;<arg fmt="%s" index="1">Seven_segment</arg>&gt; remains a black box.
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_Seg</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
 </msg>
 
 </messages>

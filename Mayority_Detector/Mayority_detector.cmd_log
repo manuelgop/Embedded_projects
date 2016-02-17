@@ -12,3 +12,9 @@ map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Mayorit
 par -w -intstyle ise -ol high -t 1 Mayority_detector_map.ncd Mayority_detector.ncd Mayority_detector.pcf 
 trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Mayority_detector.twx Mayority_detector.ncd -o Mayority_detector.twr Mayority_detector.pcf -ucf Mayority_detector.ucf 
 bitgen -intstyle ise -f Mayority_detector.ut Mayority_detector.ncd 
+xst -intstyle ise -ifn "C:/Embedded Projects/Mayority_Detector/Mayority_detector.xst" -ofn "C:/Embedded Projects/Mayority_Detector/Mayority_detector.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Mayority_detector.ucf -p xc6slx16-csg324-3 "Mayority_detector.ngc" Mayority_detector.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Mayority_detector_map.ncd Mayority_detector.ngd Mayority_detector.pcf 
+par -w -intstyle ise -ol high -mt off Mayority_detector_map.ncd Mayority_detector.ncd Mayority_detector.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Mayority_detector.twx Mayority_detector.ncd -o Mayority_detector.twr Mayority_detector.pcf -ucf Mayority_detector.ucf 
+bitgen -intstyle ise -f Mayority_detector.ut Mayority_detector.ncd 
