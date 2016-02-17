@@ -5,8 +5,5 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="Xst" num="1465" delta="old" >&quot;<arg fmt="%s" index="1">Counters.v</arg>&quot; line <arg fmt="%d" index="2">48</arg>: Exactly not equal expression will be synthesized as a not equal expression, simulation mismatch is possible. 
-</msg>
-
 </messages>
 

@@ -3,10 +3,10 @@
 <!--The data in this file is primarily intended for consumption by Xilinx tools.
 The structure and the elements are likely to change over the next few releases.
 This means code written to parse this file will need to be revisited each subsequent release.-->
-<application name="pn" timeStamp="Sat Jan 23 16:25:55 2016">
+<application name="pn" timeStamp="Tue Feb 16 18:52:53 2016">
 <section name="Project Information" visible="false">
 <property name="ProjectID" value="CC22C84CEA1D4F25A0A6C91D58F7226B" type="project"/>
-<property name="ProjectIteration" value="6" type="project"/>
+<property name="ProjectIteration" value="9" type="project"/>
 <property name="ProjectFile" value="C:/Embedded Projects/P07_Counter_with_Frequency_Division/P06_Counters.xise" type="project"/>
 <property name="ProjectCreationTimestamp" value="2016-01-20T17:41:45" type="project"/>
 </section>
@@ -25,7 +25,7 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="PROP_UserConstraintEditorPreference" value="Text Editor" type="process"/>
 <property name="PROP_intProjectCreationTimestamp" value="2016-01-20T17:41:45" type="design"/>
 <property name="PROP_intWbtProjectID" value="CC22C84CEA1D4F25A0A6C91D58F7226B" type="design"/>
-<property name="PROP_intWbtProjectIteration" value="6" type="process"/>
+<property name="PROP_intWbtProjectIteration" value="9" type="process"/>
 <property name="PROP_intWorkingDirLocWRTProjDir" value="Same" type="design"/>
 <property name="PROP_intWorkingDirUsed" value="No" type="design"/>
 <property name="PROP_isimLoadGlbl" value="false" type="process"/>
@@ -34,12 +34,12 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="PROP_xilxBitgStart_IntDone" value="true" type="process"/>
 <property name="PROPEXT_mapTimingMode_spartan6" value="Non Timing Driven" type="process"/>
 <property name="PROP_AutoTop" value="true" type="design"/>
-<property name="PROP_DevFamily" value="Spartan3E" type="design"/>
-<property name="PROP_DevDevice" value="xc3s100e" type="design"/>
-<property name="PROP_DevFamilyPMName" value="spartan3e" type="design"/>
-<property name="PROP_DevPackage" value="cp132" type="design"/>
+<property name="PROP_DevFamily" value="Spartan6" type="design"/>
+<property name="PROP_DevDevice" value="xc6slx16" type="design"/>
+<property name="PROP_DevFamilyPMName" value="spartan6" type="design"/>
+<property name="PROP_DevPackage" value="csg324" type="design"/>
 <property name="PROP_Synthesis_Tool" value="XST (VHDL/Verilog)" type="design"/>
-<property name="PROP_DevSpeed" value="-4" type="design"/>
+<property name="PROP_DevSpeed" value="-3" type="design"/>
 <property name="PROP_PreferredLanguage" value="Verilog" type="design"/>
 <property name="FILE_UCF" value="1" type="source"/>
 <property name="FILE_VERILOG" value="2" type="source"/>

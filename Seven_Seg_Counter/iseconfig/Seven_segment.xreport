@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2016-01-27T16:35:22</DateModified>
+  <DateModified>2016-02-16T19:05:35</DateModified>
   <ModuleName>Seven_segment</ModuleName>
-  <SummaryTimeStamp>2016-01-23T17:55:12</SummaryTimeStamp>
+  <SummaryTimeStamp>2016-02-16T18:50:22</SummaryTimeStamp>
   <SavedFilePath>C:/Embedded Projects/Seven_Seg_Counter/iseconfig/Seven_segment.xreport</SavedFilePath>
   <ImplementationReportsDirectory>C:/Embedded Projects/Seven_Seg_Counter\</ImplementationReportsDirectory>
   <DateInitialized>2016-01-23T16:59:43</DateInitialized>

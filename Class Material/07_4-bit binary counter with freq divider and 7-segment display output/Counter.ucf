@@ -1,0 +1,16 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "ClkIn" LOC = V10;
+NET "Rst" LOC = B8;
+NET "Anode[3]" LOC = P17;
+NET "Anode[2]" LOC = P18;
+NET "Anode[1]" LOC = N15;
+NET "Anode[0]" LOC = N16;
+NET "Seg[0]" LOC = L14;
+NET "Seg[1]" LOC = N14;
+NET "Seg[2]" LOC = M14;
+NET "Seg[3]" LOC = U18;
+NET "Seg[4]" LOC = U17;
+NET "Seg[5]" LOC = T18;
+NET "Seg[6]" LOC = T17;

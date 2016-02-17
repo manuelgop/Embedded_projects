@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2016-01-23T16:28:57</DateModified>
+  <DateModified>2016-02-16T18:52:32</DateModified>
   <ModuleName>Counters</ModuleName>
-  <SummaryTimeStamp>2016-01-23T16:26:01</SummaryTimeStamp>
+  <SummaryTimeStamp>2016-02-16T18:31:45</SummaryTimeStamp>
   <SavedFilePath>C:/Embedded Projects/P07_Counter_with_Frequency_Division/iseconfig/Counters.xreport</SavedFilePath>
   <ImplementationReportsDirectory>C:/Embedded Projects/P07_Counter_with_Frequency_Division\</ImplementationReportsDirectory>
   <DateInitialized>2016-01-20T17:49:04</DateInitialized>

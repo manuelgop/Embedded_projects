@@ -26,7 +26,7 @@ module Seven_segment(Clr, Clk, Seg, an);
 	//Registers
 	reg [3:0] Qtemp;
 	//Constants
-	parameter BoardFreq = 50_000_000;//For my Basys2 board, the Clk is 50MHz
+	parameter BoardFreq = 100_000_000;//For my Basys2 board, the Clk is 50MHz
 	//Number of bits 2^Bits = BoardFreq
 	parameter Bits      = 27;//2^27>100000000
 	//Constantes del 7 segmentos
@@ -79,7 +79,7 @@ module Seven_segment(Clr, Clk, Seg, an);
 				else
 					Qtemp = Qtemp + 1'b1;
 	end
-		assign an = 4'b0111;
+		assign an = 4'b1011;
 		//assign Q = Qtemp;
 		
 	///7 segment display

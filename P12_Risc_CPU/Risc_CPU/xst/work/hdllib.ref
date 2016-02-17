@@ -1,0 +1,15 @@
+MO Risc_CPU NULL Risc_CPU.v vlg70/_risc___c_p_u.bin 1455150392
+MO ClkDiv NULL ClkDiv.v vlg71/_clk_div.bin 1455150392
+MO Registers NULL Registers.v vlg20/_registers.bin 1455150392
+MO Reg8 NULL Reg8.v vlg22/_reg8.bin 1455150392
+MO Mem NULL Mem.v vlg6B/_mem.bin 1455150392
+MO ProgCounter NULL ProgCounter.v vlg64/_prog_counter.bin 1455150392
+MO Increm NULL Increm.v vlg0A/_increm.bin 1455150392
+MO CtrlUnit NULL CtrlUnit.v vlg61/_ctrl_unit.bin 1455150392
+MO Dec7Seg NULL Dec7Seg.v vlg56/_dec7_seg.bin 1455150392
+MO DispOff NULL DispOff.v vlg2F/_disp_off.bin 1455150392
+MO Mux4to1 NULL Mux4to1.v vlg7A/_mux4to1.bin 1455150392
+MO Refresh NULL Refresh.v vlg7F/_refresh.bin 1455150392
+MO ALU NULL ALU.v vlg2A/_a_l_u.bin 1455150392
+MO FullAdder NULL FullAdder.v vlg73/_full_adder.bin 1455150392
+MO BrEq NULL BrEq.v vlg26/_br_eq.bin 1455150392

@@ -108,6 +108,7 @@
     <transform xil_pn:end_ts="1453408221" xil_pn:in_ck="-1270058196997953241" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="2255539157045629456" xil_pn:start_ts="1453408219">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="Counters_tf_beh.prj"/>
@@ -120,6 +121,8 @@
     <transform xil_pn:end_ts="1453408269" xil_pn:in_ck="5410705788594593403" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-5464276677772597080" xil_pn:start_ts="1453408268">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="Counters_tf_isim_beh.wdb"/>
@@ -177,21 +180,18 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1453397851" xil_pn:in_ck="3561916331184327897" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-1286454820939966344" xil_pn:start_ts="1453397843">
+    <transform xil_pn:end_ts="1455668578" xil_pn:in_ck="3561916331184327897" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-1286454820939966344" xil_pn:start_ts="1455668571">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="InputChanged"/>
       <outfile xil_pn:name="Counters.bld"/>
       <outfile xil_pn:name="Counters.ngd"/>
       <outfile xil_pn:name="Counters_ngdbuild.xrpt"/>
       <outfile xil_pn:name="_ngo"/>
       <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
     </transform>
-    <transform xil_pn:end_ts="1453397864" xil_pn:in_ck="3561916331184327898" xil_pn:name="TRANEXT_map_spartan6" xil_pn:prop_ck="1463976855095865663" xil_pn:start_ts="1453397851">
+    <transform xil_pn:end_ts="1455668589" xil_pn:in_ck="3561916331184327898" xil_pn:name="TRANEXT_map_spartan6" xil_pn:prop_ck="1463976855095865663" xil_pn:start_ts="1455668578">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="Counters.pcf"/>
       <outfile xil_pn:name="Counters_map.map"/>
       <outfile xil_pn:name="Counters_map.mrp"/>
@@ -202,10 +202,9 @@
       <outfile xil_pn:name="Counters_usage.xml"/>
       <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
     </transform>
-    <transform xil_pn:end_ts="1453397875" xil_pn:in_ck="-5441530361525094157" xil_pn:name="TRANEXT_par_spartan6" xil_pn:prop_ck="-1178055513630676559" xil_pn:start_ts="1453397864">
+    <transform xil_pn:end_ts="1455668601" xil_pn:in_ck="-5441530361525094157" xil_pn:name="TRANEXT_par_spartan6" xil_pn:prop_ck="-1178055513630676559" xil_pn:start_ts="1455668589">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="Counters.ncd"/>
       <outfile xil_pn:name="Counters.pad"/>
       <outfile xil_pn:name="Counters.par"/>
@@ -217,10 +216,9 @@
       <outfile xil_pn:name="Counters_par.xrpt"/>
       <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
     </transform>
-    <transform xil_pn:end_ts="1453397875" xil_pn:in_ck="3561916331184327766" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416185" xil_pn:start_ts="1453397871">
+    <transform xil_pn:end_ts="1455668601" xil_pn:in_ck="3561916331184327766" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416185" xil_pn:start_ts="1455668597">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="Counters.twr"/>
       <outfile xil_pn:name="Counters.twx"/>
       <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>

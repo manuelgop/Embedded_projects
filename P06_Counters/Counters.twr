@@ -1,9 +1,9 @@
 --------------------------------------------------------------------------------
-Release 14.7 Trace  (nt64)
+Release 14.7 Trace  (nt)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
--n 3 -fastpaths -xml Counters.twx Counters.ncd -o Counters.twr Counters.pcf
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s 3 -n
+3 -fastpaths -xml Counters.twx Counters.ncd -o Counters.twr Counters.pcf
 
 Design file:              Counters.ncd
 Physical constraint file: Counters.pcf
@@ -59,14 +59,14 @@ Clk            |    1.484|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 
-Analysis completed Thu Jan 21 11:37:54 2016 
+Analysis completed Tue Feb 16 18:23:20 2016 
 --------------------------------------------------------------------------------
 
 Trace Settings:
 -------------------------
 Trace Settings 
 
-Peak Memory Usage: 219 MB
+Peak Memory Usage: 172 MB
 
 
 

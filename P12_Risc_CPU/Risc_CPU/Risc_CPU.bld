@@ -1,0 +1,120 @@
+Release 14.7 ngdbuild P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\ngdbuild.exe -intstyle
+ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 Risc_CPU.ngc Risc_CPU.ngd
+
+Reading NGO file "C:/Embedded Projects/P12_Risc_CPU/Risc_CPU/Risc_CPU.ngc" ...
+Gathering constraint information from source properties...
+Done.
+
+Resolving constraint associations...
+Checking Constraint Associations...
+Done...
+
+Checking expanded design ...
+ERROR:NgdBuild:604 - logical block 'C09' with type 'Mux4to1' could not be
+   resolved. A pin name misspelling can cause this, a missing edif or ngc file,
+   case mismatch between the block name and the edif or ngc file name, or the
+   misspelling of a type name. Symbol 'Mux4to1' is not supported in target
+   'spartan6'.
+ERROR:NgdBuild:604 - logical block 'C01' with type 'ProgCounter' could not be
+   resolved. A pin name misspelling can cause this, a missing edif or ngc file,
+   case mismatch between the block name and the edif or ngc file name, or the
+   misspelling of a type name. Symbol 'ProgCounter' is not supported in target
+   'spartan6'.
+ERROR:NgdBuild:604 - logical block 'C04' with type 'Registers' could not be
+   resolved. A pin name misspelling can cause this, a missing edif or ngc file,
+   case mismatch between the block name and the edif or ngc file name, or the
+   misspelling of a type name. Symbol 'Registers' is not supported in target
+   'spartan6'.
+ERROR:NgdBuild:604 - logical block 'C11' with type 'Reg8' could not be resolved.
+   A pin name misspelling can cause this, a missing edif or ngc file, case
+   mismatch between the block name and the edif or ngc file name, or the
+   misspelling of a type name. Symbol 'Reg8' is not supported in target
+   'spartan6'.
+ERROR:NgdBuild:604 - logical block 'C12' with type 'Reg8' could not be resolved.
+   A pin name misspelling can cause this, a missing edif or ngc file, case
+   mismatch between the block name and the edif or ngc file name, or the
+   misspelling of a type name. Symbol 'Reg8' is not supported in target
+   'spartan6'.
+ERROR:NgdBuild:604 - logical block 'C15' with type 'ClkDiv' could not be
+   resolved. A pin name misspelling can cause this, a missing edif or ngc file,
+   case mismatch between the block name and the edif or ngc file name, or the
+   misspelling of a type name. Symbol 'ClkDiv' is not supported in target
+   'spartan6'.
+ERROR:NgdBuild:604 - logical block 'C16' with type 'ClkDiv' could not be
+   resolved. A pin name misspelling can cause this, a missing edif or ngc file,
+   case mismatch between the block name and the edif or ngc file name, or the
+   misspelling of a type name. Symbol 'ClkDiv' is not supported in target
+   'spartan6'.
+ERROR:NgdBuild:604 - logical block 'C02' with type 'Mem' could not be resolved.
+   A pin name misspelling can cause this, a missing edif or ngc file, case
+   mismatch between the block name and the edif or ngc file name, or the
+   misspelling of a type name. Symbol 'Mem' is not supported in target
+   'spartan6'.
+ERROR:NgdBuild:604 - logical block 'C06' with type 'FullAdder' could not be
+   resolved. A pin name misspelling can cause this, a missing edif or ngc file,
+   case mismatch between the block name and the edif or ngc file name, or the
+   misspelling of a type name. Symbol 'FullAdder' is not supported in target
+   'spartan6'.
+ERROR:NgdBuild:604 - logical block 'C05' with type 'ALU' could not be resolved.
+   A pin name misspelling can cause this, a missing edif or ngc file, case
+   mismatch between the block name and the edif or ngc file name, or the
+   misspelling of a type name. Symbol 'ALU' is not supported in target
+   'spartan6'.
+ERROR:NgdBuild:604 - logical block 'C10' with type 'Mux4to1' could not be
+   resolved. A pin name misspelling can cause this, a missing edif or ngc file,
+   case mismatch between the block name and the edif or ngc file name, or the
+   misspelling of a type name. Symbol 'Mux4to1' is not supported in target
+   'spartan6'.
+ERROR:NgdBuild:604 - logical block 'C13' with type 'Refresh' could not be
+   resolved. A pin name misspelling can cause this, a missing edif or ngc file,
+   case mismatch between the block name and the edif or ngc file name, or the
+   misspelling of a type name. Symbol 'Refresh' is not supported in target
+   'spartan6'.
+ERROR:NgdBuild:604 - logical block 'C03' with type 'CtrlUnit' could not be
+   resolved. A pin name misspelling can cause this, a missing edif or ngc file,
+   case mismatch between the block name and the edif or ngc file name, or the
+   misspelling of a type name. Symbol 'CtrlUnit' is not supported in target
+   'spartan6'.
+ERROR:NgdBuild:604 - logical block 'C07' with type 'Increm' could not be
+   resolved. A pin name misspelling can cause this, a missing edif or ngc file,
+   case mismatch between the block name and the edif or ngc file name, or the
+   misspelling of a type name. Symbol 'Increm' is not supported in target
+   'spartan6'.
+ERROR:NgdBuild:604 - logical block 'CO8' with type 'BrEq' could not be resolved.
+   A pin name misspelling can cause this, a missing edif or ngc file, case
+   mismatch between the block name and the edif or ngc file name, or the
+   misspelling of a type name. Symbol 'BrEq' is not supported in target
+   'spartan6'.
+ERROR:NgdBuild:604 - logical block 'C14' with type 'Dec7Seg' could not be
+   resolved. A pin name misspelling can cause this, a missing edif or ngc file,
+   case mismatch between the block name and the edif or ngc file name, or the
+   misspelling of a type name. Symbol 'Dec7Seg' is not supported in target
+   'spartan6'.
+WARNING:NgdBuild:604 - logical block 'C17' with type 'DispOff' could not be
+   resolved. A pin name misspelling can cause this, a missing edif or ngc file,
+   case mismatch between the block name and the edif or ngc file name, or the
+   misspelling of a type name. Symbol 'DispOff' is not supported in target
+   'spartan6'.
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:    16
+  Number of warnings:   1
+
+Total memory usage is 152040 kilobytes
+
+Total REAL time to NGDBUILD completion:  2 sec
+Total CPU time to NGDBUILD completion:   2 sec
+
+One or more errors were found during NGDBUILD.  No NGD file will be written.
+
+Writing NGDBUILD log file "Risc_CPU.bld"...

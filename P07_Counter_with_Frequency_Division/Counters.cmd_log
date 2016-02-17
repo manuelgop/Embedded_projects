@@ -51,3 +51,25 @@ par -w -intstyle ise -ol high -t 1 Counters_map.ncd Counters.ncd Counters.pcf
 trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Counters.twx Counters.ncd -o Counters.twr Counters.pcf -ucf Counters.ucf 
 bitgen -intstyle ise -f Counters.ut Counters.ncd 
 xst -intstyle ise -ifn "C:/Embedded Projects/P07_Counter_with_Frequency_Division/Counters.xst" -ofn "C:/Embedded Projects/P07_Counter_with_Frequency_Division/Counters.syr" 
+xst -intstyle ise -ifn "C:/Embedded Projects/P07_Counter_with_Frequency_Division/Counters.xst" -ofn "C:/Embedded Projects/P07_Counter_with_Frequency_Division/Counters.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Counters.ucf -p xc6slx16-csg324-3 "Counters.ngc" Counters.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Counters_map.ncd Counters.ngd Counters.pcf 
+xst -intstyle ise -ifn "C:/Embedded Projects/P07_Counter_with_Frequency_Division/Counters.xst" -ofn "C:/Embedded Projects/P07_Counter_with_Frequency_Division/Counters.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Counters.ucf -p xc6slx16-csg324-3 "Counters.ngc" Counters.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Counters_map.ncd Counters.ngd Counters.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Counters.ucf -p xc6slx16-csg324-3 "Counters.ngc" Counters.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Counters_map.ncd Counters.ngd Counters.pcf 
+par -w -intstyle ise -ol high -mt off Counters_map.ncd Counters.ncd Counters.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Counters.twx Counters.ncd -o Counters.twr Counters.pcf -ucf Counters.ucf 
+bitgen -intstyle ise -f Counters.ut Counters.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Counters.ucf -p xc6slx16-csg324-3 "Counters.ngc" Counters.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Counters_map.ncd Counters.ngd Counters.pcf 
+par -w -intstyle ise -ol high -mt off Counters_map.ncd Counters.ncd Counters.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Counters.twx Counters.ncd -o Counters.twr Counters.pcf -ucf Counters.ucf 
+bitgen -intstyle ise -f Counters.ut Counters.ncd 
+xst -intstyle ise -ifn "C:/Embedded Projects/P07_Counter_with_Frequency_Division/Counters.xst" -ofn "C:/Embedded Projects/P07_Counter_with_Frequency_Division/Counters.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Counters.ucf -p xc6slx16-csg324-3 "Counters.ngc" Counters.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Counters_map.ncd Counters.ngd Counters.pcf 
+par -w -intstyle ise -ol high -mt off Counters_map.ncd Counters.ncd Counters.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Counters.twx Counters.ncd -o Counters.twr Counters.pcf -ucf Counters.ucf 
+bitgen -intstyle ise -f Counters.ut Counters.ncd 

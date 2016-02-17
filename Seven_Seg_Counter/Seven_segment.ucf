@@ -9,28 +9,28 @@
 #    D
 #
 # Bank = 1, Signal name = CA
-NET "Seg[0]" LOC = L14;
+NET "Seg[0]" LOC = T17;
 # Bank = 1, Signal name = CB
-NET "Seg[1]" LOC = H12;
+NET "Seg[1]" LOC = T18;
 # Bank = 1, Signal name = CC
-NET "Seg[2]" LOC = N14;
+NET "Seg[2]" LOC = U17;
 # Bank = 2, Signal name = CD
-NET "Seg[3]" LOC = N11;
+NET "Seg[3]" LOC = U18;
 # Bank = 2, Signal name = CE
-NET "Seg[4]" LOC = P12;
+NET "Seg[4]" LOC = M14;
 # Bank = 1, Signal name = CF
-NET "Seg[5]" LOC = L13;
+NET "Seg[5]" LOC = N14;
 # Bank = 1, Signal name = CG
-NET "Seg[6]" LOC = M12;
+NET "Seg[6]" LOC = L14;
 
-NET "Clk" LOC = B8;
-NET "Clr" LOC = A7;
+NET "Clk" LOC = V10;
+NET "Clr" LOC = B8;
 
 # PlanAhead Generated physical constraints 
 
-NET "an[0]" LOC = F12;
-NET "an[1]" LOC = J12;
-NET "an[2]" LOC = M13;
-NET "an[3]" LOC = K14;
+NET "an[0]" LOC = N16;
+NET "an[1]" LOC = N15;
+NET "an[2]" LOC = P18;
+NET "an[3]" LOC = P17;
 
 
